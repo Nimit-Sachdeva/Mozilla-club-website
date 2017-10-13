@@ -1,0 +1,47 @@
+body:not(header)
+{
+  width:auto;
+  height: 1000px;
+  /*background:url('rust.jpg')*/
+}
+header
+{
+/*opacity: 0.7;*/
+   top: 0;
+  height:80px;
+  position: fixed;
+  background-color:black;
+  color: white;
+  border: 2px solid;
+  width: 1500px;
+}
+.sliders
+{top: 0;
+  opacity: 0.3;
+  background-image:url('http://i1-news.softpedia-static.com/images/news2/mozilla-fixes-critical-vulnerability-in-firefox-22-hours-after-discovery-514095-2.jpg');
+  margin-top: 100px;
+  height: 500px;
+  background-size: cover;
+  background-repeat: repeat-y;
+
+  /*border: 2px solid;*/
+  /*background: green*/
+}
+.img-rounded
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: 0.5px solid;
+  margin: 150px;
+  opacity: 0.8;
+}
+.team-members
+{
+  color: grey;
+  font-style: oblique;
+  text-align: center;
+}
+.pull-right{
+  float: right;
+}
