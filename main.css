@@ -4,35 +4,34 @@
 body
 {
   margin: 0;
-  width:auto;
+  width: auto;
   height: 1500px;
   /*background:url('rust.jpg')*/
 }
-.sliders>blockquote{
+#moto{
+    margin-top: 50px;
+    padding: 50px;
+    /*color: grey;*/
+    font-style: oblique;  
+    top:0;
+    height:auto;
+    width:50%;
+    border-right: 1px solid grey;
+    text-align: justify;
+}
+.headerimage>blockquote{
   opacity: 0.8;
   font-size: 30px;
   text-shadow: 1px 1px 2px blue;
-  /*color:black;*/
   padding-top: 150px;
-  /*margin: 0 auto;*/
   text-align: center;
 }
-header
-{
-  /*opacity: 0.9;*/
-   top: 0;
-  height:40px;
-  /*position: fixed;*/
-  /*color: white;*/
-  /*border: 2px solid;*/
-  width: 1500px;
-  background-color: white;
-}
+
 .primary-menu{
   text-decoration: none;
   color: black;
 }
-.sliders
+.headerimage
 { top: 0;
   opacity: 0.5;
   background-image:url('http://i1-news.softpedia-static.com/images/news2/mozilla-fixes-critical-vulnerability-in-firefox-22-hours-after-discovery-514095-2.jpg');
@@ -40,16 +39,15 @@ header
   background-size: cover;
   background-repeat: repeat-y;
 
-
-  /*border: 2px solid;*/
-  /*background: green*/
 }
-
-.teamplayers{
-
+.center{
+  text-align: center;
+}
+#teamplayers{
+  padding-top: 30px;
   padding-bottom:20px;
-  border-top: 1px solid grey;
-  border-bottom: 1px solid grey;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .img-rounded
 {
@@ -61,22 +59,17 @@ header
   margin-right: 150px;
   /*opacity: 0.8;*/
 }
-/*.img-rounded:hover{
-
-  height: 220px;
-  width: 220px;
-}*/
 .team-members
 {
   /*display: inline-block;*/
-  margin-top: 40px;
+  /*margin-top: 40px;*/
   color: grey;
   font-style: oblique;
   text-align: center;
 }
 .pull-right{
   float: right;
-  margin-right: 200px;
+  margin-right: 20px;
 }
 .inline{
   display: inline;
