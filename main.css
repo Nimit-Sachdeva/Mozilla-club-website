@@ -11,13 +11,17 @@ body
 #moto{
     margin-top: 50px;
     padding: 50px;
+    float: left;
     /*color: grey;*/
-    font-style: oblique;  
+    font-style: oblique;
     top:0;
     height:auto;
     width:50%;
     border-right: 1px solid grey;
     text-align: justify;
+}
+#notifications{
+  width: 49%;
 }
 .headerimage>blockquote{
   opacity: 0.8;
@@ -52,17 +56,14 @@ body
 .img-rounded
 {
   height: 200px;
-  width: 200px;
   border-radius: 50%;
   border: 1px solid;
   margin-left: 150px;
   margin-right: 150px;
-  /*opacity: 0.8;*/
+
 }
 .team-members
 {
-  /*display: inline-block;*/
-  /*margin-top: 40px;*/
   color: grey;
   font-style: oblique;
   text-align: center;
