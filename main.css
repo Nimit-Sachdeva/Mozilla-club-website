@@ -5,27 +5,26 @@ body
 {
   margin: 0;
   width: auto;
-  height: 1500px;
-  /*background:url('rust.jpg')*/
+  height: auto;
+
 }
 #moto{
-    margin-top: 50px;
-    padding: 50px;
+
     float: left;
-    /*color: grey;*/
     font-style: oblique;
+    padding-left: 50px;
+    padding-right: 50px;
     top:0;
     height:inherit;
     width:50%;
     border-right: 1px solid grey;
-    text-align: justify;
+    text-align: justify,center;
 }
 #notifications{
-  margin-top: 50px;
-  padding: 60px;
-  height: inherit;
   padding-left: 50px;
-  width: auto;
+  float: right;
+  height: inherit;
+  width: 50%;
   font-style: oblique;
   text-align: justify;
 }
@@ -40,37 +39,75 @@ body
 .primary-menu{
   text-decoration: none;
   color: black;
+  margin-right: 100px;
 }
 .headerimage
-{ top: 0;
+{
   opacity: 0.5;
   background-image:url('http://i1-news.softpedia-static.com/images/news2/mozilla-fixes-critical-vulnerability-in-firefox-22-hours-after-discovery-514095-2.jpg');
   height: 500px;
   background-size: cover;
-  background-repeat: repeat-y;
 
 }
 .center{
   text-align: center;
 }
 #teamplayers{
-  padding-top: 70px;
-  padding-bottom:20px;
-  padding-left: 100px;
-  padding-right: 100px;
+
+  text-align: center;
+  border-bottom: 1px solid;
+  height: 350px;
+}
+#members{
+  text-align: center;
+  padding: 0;
+  height: auto;
+  /*border-bottom: 1px solid;*/
+}
+.names{
+  text-align: center;
+}
+.screen-height{
+  height:400px;
+  /*padding-bottom: 20px;*/
+  /*padding: 100 0 0 0;*/
+  border-bottom: 1px solid;
+  /*border-top: 1px solid;*/
 }
 .img-rounded
 {
+  text-align: center;
   height: 200px;
   border-radius: 50%;
   border: 1px solid;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 70px;
+  margin-right: 70px;
 
+}
+#Contact h1{
+  text-align: center;
+}
+#Contact li{
+  list-style: none;
+}
+#Contact{
+  color: white;
+  border-top: 1px solid;
+  height:400px;
+  background-color: black;
+  opacity: 0.8;
+}
+.team{
+  position: relative;
+  height: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+  position: relative;
+  display:inline-block;
+  width:auto;
 }
 .team-members
 {
-  color: grey;
   font-style: oblique;
   text-align: center;
 }
